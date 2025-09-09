@@ -7,8 +7,7 @@ const Navbar = () => {
     <nav className="bg-black p-4 shadow-md">
         
       <div className="container mx-auto flex justify-between items-center">
-        <img src="Geeim.jpg" alt="" width={45} className='' />
-        <div className="text-2xl font-bold text-yellow-500 mr-20" >
+        <div className="text-2xl font-bold text-yellow-500 " >
           GEEFINERY
         </div>
 
