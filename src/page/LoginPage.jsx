@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
@@ -67,12 +68,14 @@ const LoginPage = () => {
         </div>
 
         {/* Right Section: Hello, Friend! */}
-        <div className="w-full md:w-1/2 bg-yellow-500 text-white p-8 md:p-12 flex flex-col justify-center items-center text-center">
+        <div className="w-full md:w-1/2 bg-gradient-to-r from-teal-400 to-yellow-500 text-white p-8 md:p-12 flex flex-col justify-center items-center text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Hello, Friend!</h2>
           <p className="text-lg mb-8">Fill up personal information and start journey with us.</p>
-          <button className="bg-white text-yellow-500 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors">
+          <Link to="/signup">
+          < button className="bg-white text-yellow-500 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors">
             Sign Up
           </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,16 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black p-4">
       <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full">
         {/* Left Section (Welcome Back) */}
-        <div className="w-full md:w-1/2 bg-gradient-to-r from-teal-400 to-green-500 text-white p-8 flex flex-col justify-center items-center text-center">
+        <div className="w-full md:w-1/2 bg-gradient-to-r from-teal-400 to-yellow-500 text-white p-8 flex flex-col justify-center items-center text-center">
           <h2 className="text-3xl font-bold mb-4">Welcome Back!</h2>
           <p className="mb-8">To keep connected with us please login with your personal info</p>
-          <button className="bg-transparent border-2 border-white text-white py-2 px-8 rounded-full hover:bg-white hover:text-green-500 transition duration-300">
+          <Link to="/loginpage">
+          <button className="bg-transparent border-2 border-white text-white py-2 px-8 rounded-full hover:bg-white hover:text-yellow-500 transition duration-300">
             SIGN IN
           </button>
+          </Link>
         </div>
 
         {/* Right Section (Create Account) */}
@@ -42,7 +45,7 @@ const Signup = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 />
               </div>
             </div>
@@ -54,7 +57,7 @@ const Signup = () => {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 />
               </div>
             </div>
@@ -66,14 +69,13 @@ const Signup = () => {
                 <input
                   type="password"
                   placeholder="Password"
-                  className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                  className="w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 />
               </div>
             </div>
-            
             <button
               type="submit"
-              className="w-full bg-green-500 text-white py-3 rounded-full hover:bg-green-600 transition duration-300 font-semibold"
+              className="w-full bg-yellow-500 text-white py-3 rounded-full hover:bg-yellow-500 transition duration-300 font-semibold"
             >
               SIGN UP
             </button>

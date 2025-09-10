@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./component/Navbar";
 import LoginPage from "./page/LoginPage";
 import Signup from "./page/Signup";
