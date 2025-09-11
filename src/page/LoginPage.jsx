@@ -14,7 +14,7 @@ const LoginPage = () => {
                 <i className="fab fa-facebook-f text-gray-700"></i>
               </button>
               <button className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 hover:bg-gray-50 transition-colors">
-                <i className="fab fa-linkedin-in text-gray-700"></i>
+                <i className="fab fa-instagram text-gray-700"></i>
               </button>
               <button className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 hover:bg-gray-50 transition-colors">
                 <i className="fab fa-google text-gray-700"></i>
@@ -51,7 +51,7 @@ const LoginPage = () => {
                 <input type="checkbox" id="remember-me" className="h-4 w-4 text-yellow-500 focus:ring-green-500 border-gray-300 rounded" />
                 <label htmlFor="remember-me" className="ml-2 text-gray-700">Remember me</label>
               </div>
-              <a href="#" className="font-medium text-yellow-500 hover:text-green-500">Forgot Password?</a>
+              <a href="#" className="font-medium text-black-500 hover:text-yellow-500">Forgot Password?</a>
             </div>
             <button
               type="submit"

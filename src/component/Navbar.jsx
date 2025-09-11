@@ -5,17 +5,18 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black p-4 shadow-md">
+   <nav className="bg-black p-4 shadow-lg mb-1" style={{ boxShadow: "4px 4px 15px rgba(255, 217, 0, 1)" }}>
+
         
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold text-yellow-500 " >
-          GEEFINERY
+          GEEFINERY CLOTHING
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 mr-4">
             
-          <Link href="#" className="text-white hover:text-yellow-500">Home</Link>
+          <Link to="/" className="text-white hover:text-yellow-500">Home</Link>
           <a href="#" className="text-white hover:text-yellow-500">Shop</a>
           <a href="#" className="text-white hover:text-yellow-500">About</a>
           <a href="#" className="text-white hover:text-yellow-500">Contact Us</a>
@@ -61,7 +62,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 bg-yellow rounded-md py-2 px-4">
-          <a href="#" className="block py-2 text-white hover:bg-yellow-500">Home</a>
+          <Link to="/" className="block py-2 text-white hover:bg-yellow-500">Home</Link>
           <a href="#" className="block py-2 text-white hover:bg-yellow-500">Shop</a>
           <a href="#" className="block py-2 text-white hover:bg-yellow-500">About</a>
           <a href="#" className="block py-2 text-white hover:bg-yellow-500">Contact Us</a>

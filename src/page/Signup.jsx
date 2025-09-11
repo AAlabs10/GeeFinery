@@ -29,7 +29,7 @@ const Signup = () => {
               <i className="fab fa-google-plus-g"></i>
             </a>
             <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 text-gray-700 hover:bg-gray-100 transition duration-300">
-              <i className="fab fa-linkedin-in"></i>
+              <i className="fab fa-instagram"></i>
             </a>
           </div>
 

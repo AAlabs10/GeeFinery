@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./component/Navbar";
 import LoginPage from "./page/LoginPage";
 import Signup from "./page/Signup";
+import Hero from "./component/Hero";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ const App = () => {
       <Router>
        <Navbar />
        <Routes>
+        <Route path="/" element={<Hero />} />
          <Route path="/loginpage" element={<LoginPage />} />
          <Route path="/signup" element={<Signup />} />
        </Routes>
