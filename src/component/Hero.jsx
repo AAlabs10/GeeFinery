@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className="bg-black min-h-screen flex flex-col lg:flex-row items-center justify-center p-6 sm:p-12 lg:p-24">
-      <div className="text-center lg:text-left mb-8 lg:mb-0 lg:mr-12">
+    <div className="bg-black min-h-screen flex flex-col lg:flex-row items-center justify-center p-6 sm:p-12  lg:p-24">
+      <div className="text-center lg:text-left mb-24 lg:mb-0 lg:mr-12">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-yellow-500 leading-tight mb-4">GEEFINERY CLOTHING</h1>
         <p className="text-white text-base sm:text-lg mb-8 max-w-lg mx-auto lg:mx-0">
          Geefinery clothing is an Afrocentric fashion brand,where heritage meet contemporary styles😁❤
